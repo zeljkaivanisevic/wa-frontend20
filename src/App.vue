@@ -23,7 +23,7 @@
                 </form>
 
  <form class="form-inline my-2 my-lg-0 mr-auto ml-5">
-                  <input v-model="search" class="form-control mr-sm-2" type="search" placeholder="upisi autora (zad207)" aria-label="Search">
+                  <input v-model="search" class="form-control mr-sm-2" type="search" placeholder="trazi (zad207 -views novo207)" aria-label="Search">
                 </form>
 
                 <router-link v-if="!authenticated" class="btn btn-info my-2 my-sm-0 mr-2" to="/login">Login</router-link>
