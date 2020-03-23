@@ -5,7 +5,7 @@ export default {
     cards: [],
     searchTerm: '',
     searchTerm1: '',
-
+search: '',
 
     postComment: '',
     imageData: null,

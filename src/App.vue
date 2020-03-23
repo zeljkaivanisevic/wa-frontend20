@@ -22,6 +22,9 @@
                   <input v-model="searchTerm1" class="form-control mr-sm-2" type="search" placeholder="upisi autora (zad206)" aria-label="Search">
                 </form>
 
+ <form class="form-inline my-2 my-lg-0 mr-auto ml-5">
+                  <input v-model="search" class="form-control mr-sm-2" type="search" placeholder="upisi autora (zad207)" aria-label="Search">
+                </form>
 
                 <router-link v-if="!authenticated" class="btn btn-info my-2 my-sm-0 mr-2" to="/login">Login</router-link>
                 <span v-if="authenticated">

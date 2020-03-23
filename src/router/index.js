@@ -17,6 +17,11 @@ const routes = [
         component: Posts,
       },
       {
+        path: 'novo207',
+        name: 'novo207',
+        component: () => import(/* webpackChunkName: "newpost" */ '../views/novo207.vue')
+      },
+      {
         path: 'newpost',
         name: 'newpost',
         component: () => import(/* webpackChunkName: "newpost" */ '../views/NewPost.vue')
